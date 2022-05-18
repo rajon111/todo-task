@@ -33,7 +33,7 @@ const SignUp = () => {
     }
 
     if (user || gUser) {
-        navigate('/appointment');
+        navigate('/');
     }
 
     const onSubmit = async data => {
