@@ -33,7 +33,7 @@ const SignUp = () => {
     }
 
     if (user || gUser) {
-        navigate('/');
+        navigate('/todo');
     }
 
     const onSubmit = async data => {
